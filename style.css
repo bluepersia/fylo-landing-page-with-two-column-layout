@@ -1,0 +1,58 @@
+:root 
+{
+    --font-1: "Open Sans", sans-serif;
+    --font-2: "Raleway", sans-serif;
+
+    --color-text: hsl(243, 87%, 12%);
+    --color-btn: hsl(224, 93%, 58%);
+    --color-see: hsl(170, 45%, 43%);
+    --color-section-bg: hsL(240, 75%, 98%);
+    --color-cta-bg: hsl(238, 22%, 44%);
+    --color-footer-bg: hsl(243, 87%, 12%);
+    --color-link-hover: hsl(221, 100%, 71%);
+    --color-error: hsl(343, 84%, 61%);
+
+    --color-blank: white;
+}
+
+body {
+    font-family: var(--font-1);
+    color: var(--color-text);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: var(--font-2);
+}
+h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+h3 {
+    font-size: 1.125rem;
+    line-height: 1.33;
+}
+
+.btn {
+    font-size: .875rem;
+    font-family:var(--font-2);
+    padding: 0.857em 4.35em;
+    border: none;
+    color: var(--color-blank);
+    background-color: var(--color-btn);
+    transition: filter 300ms;
+    cursor:pointer;
+}
+
+.btn:hover
+{
+    filter:brightness(140%);
+}
